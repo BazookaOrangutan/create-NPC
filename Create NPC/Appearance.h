@@ -1,14 +1,19 @@
 #pragma once
-#include "Clothes.h"
-#include "Shoes.h"
-#include "Hair.h"
+#include <iostream>
+#include "Flyweight.h"
+using namespace std;
 
 
 class Appearance
 {
-	Clothes* clothes;
-	Shoes* shoes;
-	Hair* hair;
-
+	int id;
+	char sex;
+	string name;
+	Flyweight* fl = new Flyweight();
+	string* color;
+	string* sprite;
+public:
+	Appearance();
+	
 };
 

@@ -1,13 +1,10 @@
 #pragma once
 #include<iostream>
-
+#include "Appearance.h"
 using namespace std;
 
-class Shoes
+class Shoes : Appearance
 {
-	string name;
-	string sprite;
-	string color;
 
 };
 

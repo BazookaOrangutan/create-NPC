@@ -39,7 +39,7 @@
     <ClCompile Include="Hair.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="FlyweightShoes.cpp">
+    <ClCompile Include="BodyType.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
@@ -65,7 +65,7 @@
     <ClInclude Include="Hair.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="FlyweightShoes.h">
+    <ClInclude Include="BodyType.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

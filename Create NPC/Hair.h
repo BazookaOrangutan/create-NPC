@@ -1,13 +1,18 @@
 #pragma once
 #include <iostream>
+#include "Reader.h"
+#include "Flyweight.h"
+#include "Appearance.h"
+
+#define random(a, b) a + rand() % (b - a + 1)
 
 using namespace std;
 
-class Hair
+class Hair : public Appearance
 {
-	char sex;
-	string name;
-	string sprite;
+
+public:
+	Hair() : Appearance(){};
 
 };
 

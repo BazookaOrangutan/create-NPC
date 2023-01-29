@@ -1,16 +1,19 @@
 #pragma once
 #include <iostream>
 #include <map>
+#include <vector>
+#include "Reader.h"
+#include <fstream>
 using namespace std;
 
 
 
 class Flyweight
 {
-	map<int, string> url;
-	string color;
-	
+	vector < map<int, string> > urls;
+	vector < vector<string> > colors;
+	vector<string> skinColors;
 public:
-	Flyweight(int id, string url, string color);
+	Flyweight();
 };
 

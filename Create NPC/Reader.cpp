@@ -2,15 +2,7 @@
 
 Reader::Reader(string path)
 {
-	ifstream in(path);
-	string str;
-	string s;
-	if (in.is_open()) {
-		while (getline(in, str)) {
-			objects.push_back(split(str, ','));
-		}
-	}
-	in.close();
+	read(path);
 }
 
 vector<vector<string>> Reader::getObjects()
@@ -32,4 +24,17 @@ vector<string> Reader::split(string str, char s)
 		}
 	}
 	return buf;
+}
+
+void Reader::read(string path)
+{
+	ifstream in(path);
+	string str;
+	string s;
+	if (in.is_open()) {
+		while (getline(in, str)) {
+			objects.push_back(split(str, ','));
+		}
+	}
+	in.close();
 }

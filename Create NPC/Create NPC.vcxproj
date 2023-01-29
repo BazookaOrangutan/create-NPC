@@ -140,10 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Appearance.cpp" />
+    <ClCompile Include="BodyType.cpp" />
     <ClCompile Include="Clothes.cpp" />
     <ClCompile Include="Create NPC.cpp" />
     <ClCompile Include="Flyweight.cpp" />
-    <ClCompile Include="FlyweightShoes.cpp" />
     <ClCompile Include="Hair.cpp" />
     <ClCompile Include="NPC.cpp" />
     <ClCompile Include="Reader.cpp" />
@@ -151,9 +151,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Appearance.h" />
+    <ClInclude Include="BodyType.h" />
     <ClInclude Include="Clothes.h" />
     <ClInclude Include="Flyweight.h" />
-    <ClInclude Include="FlyweightShoes.h" />
     <ClInclude Include="Hair.h" />
     <ClInclude Include="NPC.h" />
     <ClInclude Include="Reader.h" />

@@ -12,7 +12,9 @@ class Reader
 public:
 	Reader(string path);
 	vector< vector<string> > getObjects();
+
 private:
 	vector<string> split(string str, char s);
+	void read(string path);
 };
 

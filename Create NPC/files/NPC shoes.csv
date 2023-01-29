@@ -1,4 +1,4 @@
-id,название,url
-8,sneakers,https://refactoring.guru
-9,boots,https://refactoring.guru
-10,shoes,https://refactoring.guru
+id,пол,название,url
+8,u,sneakers,https://refactoring.guru
+9,u,boots,https://refactoring.guru
+10,u,shoes,https://refactoring.guru

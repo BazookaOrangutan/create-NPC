@@ -7,6 +7,7 @@ Clothes::Clothes()
 	id = stoi(s[0]);
 	sex = s[1][0];
 	name = s[2];
+	Flyweight(id, s[3], )
 	sprite = s[3];
 
 }

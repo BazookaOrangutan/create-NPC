@@ -3,18 +3,16 @@
 #include <vector>
 #include <string>
 #include "Reader.h"
-
+#include "Flyweight.h"
+#include "Appearance.h"
 #define random(a, b) a + rand()%(b - a + 1)
 
 using namespace std;
 
-class Clothes
+class Clothes : public Appearance
 {
-	int id;
-	char sex;
-	string name;
-	string sprite;
-	string color;
+	string top;
+	string down;
 public:
 	Clothes();
 };
